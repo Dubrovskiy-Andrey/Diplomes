@@ -1,0 +1,22 @@
+.themeToggle {
+  background: none;
+  border: 2px solid var(--border-active);
+  border-radius: 2rem;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+}
+
+.themeToggle:hover {
+  transform: scale(1.05);
+  background: var(--accent-primary);
+}
+
+.toggleIcon {
+  font-size: 1.2rem;
+  line-height: 1;
+}
